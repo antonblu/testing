@@ -1,0 +1,100 @@
+Basic steps to setup Github and Git:
+
+1.) Install Git on your windows or whatever platform you are using. Download from: https://git-scm.com/downloads
+I just Accepted the default install choices unless you have a specific technical reason for doing otherwise. That is what I did anyway.
+NOTE: During install, Git terminal, MinTTY was chosen. this means that windows console programs such as interactive python must be launched via 'winpty' to work in MinTTY.
+
+Git commands will then be executed from the GIT command line console. See GIT commands below
+
+2.) Sign up for a GITHUB account on https://github.com/. It’s like signing up for a social network. Make sure Git is installed. if you want to work on your project on your local computer,  In fact, GitHub won’t work on your local computer if you don’t install Git( see step 1 above)
+Create GitHub account and remember your userame and password
+
+3.) Create a repository in the Github GUI interface - A repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs. Include a README file with information about your project.
+
+To create a new repository
+In the upper right corner, next to your avatar or identicon, click  and then select New repository.
+Name your repository e.g. testing
+Write a short description.
+Select Initialize this repository with a README.
+
+or open Git command console and Create a New Repository:
+enter command: git init
+you get message: Initialized empty Git repository in C:/Users/some username/.git/
+
+4) Create a branch
+Go to your new repository, e.g. testing.
+Click the drop down at the top of the file list that says branch: master.
+Type a branch name, readme-edits, into the new branch text box.
+Select the blue Create branch box or hit “Enter” on your keyboard.
+
+5.) Make and commit changes:
+readme-edits branch is a copy of master. Let’s make some edits.
+On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.
+
+Click the README.md file.
+Click the  pencil icon in the upper right corner of the file view to edit.
+In the editor, write a bit about yourself.
+Write a commit message that describes your changes.
+Click Commit changes button.
+These changes will be made to just the README file on your readme-edits branch, so now this branch contains content that’s different from master.
+
+6.) Open a Pull Request:
+Now that you have changes in a branch off of master, you can open a pull request.
+
+Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in green and red.
+
+As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
+By using GitHub’s @mention system in your pull request message, you can ask for feedback from specific people or teams, whether they’re down the hall or 10 time zones away.
+You can even open pull requests in your own repository and merge them yourself. It’s a great way to learn the GitHub Flow before working on larger projects.
+
+Click the Pull Request tab, then from the Pull Request page, click the green New pull request button.
+Select the branch you made, readme-edits, to compare with master (the original).
+Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit.
+When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button.
+When you’re done with your message, click Create pull request!
+
+7.) Merge your Pull Request
+In this final step, it’s time to bring your changes together – merging your readme-edits branch into the master branch.
+Click the green Merge pull request button to merge the changes into master.
+Click Confirm merge.
+Go ahead and delete the branch, since its changes have been incorporated, with the Delete branch button in the purple box.
+
+More tips:
+Repository: A directory or storage space where your projects can live. You keep code files, text files, image files inside a repository.
+
+Version Control: Basically, the reason for Git's existence. With Git, you don’t have to. It keeps “snapshots” of every point in time in the project’s history, so you can never lose or overwrite it.
+
+Commit: When you commit, you are taking a “snapshot” of your repository at that point in time, giving you a checkpoint to which you can reevaluate or restore your project to any previous state.
+
+Branch: Multiple people working on a project at the same time “branch off” of the main project with their own versions full of changes they themselves have made. After they’re done, it’s time to “merge” that branch back with the “master,” the main directory of the project.
+
+Git-Specific Commands. These are executed from the Git command line:
+
+Git commands all begin the same way, with the word “git.”
+
+git init: Initializes a new Git repository. Until you run this command inside a repository or directory, it’s just a regular folder. Only after you input this does it accept further Git commands.
+
+git config: Short for “configure,” this is most useful when you’re setting up Git for the first time.
+
+git help: Forgot a command? Type this into the command line to bring up the 21 most common git commands. You can also be more specific and type “git help init” or another term to figure out how to use and configure a specific git command.
+
+git status: Check the status of your repository. See which files are inside it, which changes still need to be committed, and which branch of the repository you’re currently working on.
+
+git add: This does not add new files to your repository. Instead, it brings new files to Git’s attention. After you add files, they’re included in Git’s “snapshots” of the repository.
+
+git commit: Git’s most important command. After you make any sort of change, you input this in order to take a “snapshot” of the repository. Usually it goes git commit -m “Message here.” The -m indicates that the following section of the command should be read as a message.
+
+git branch: Working with multiple collaborators and want to make changes on your own? This command will let you build a new branch, or timeline of commits, of changes and file additions that are completely your own. Your title goes after the command. If you wanted a new branch called “cats,” you’d type git branch cats.
+
+git checkout: Literally allows you to “check out” a repository that you are not currently inside. This is a navigational command that lets you move to the repository you want to check. You can use this command as git checkout master to look at the master branch, or git checkout cats to look at another branch.
+
+git merge: When you’re done working on a branch, you can merge your changes back to the master branch, which is visible to all collaborators. git merge cats would take all the changes you made to the “cats” branch and add them to the master.
+
+git push: If you’re working on your local computer, and want your commits to be visible online on GitHub as well, you “push” the changes up to GitHub with this command.
+
+git pull: If you’re working on your local computer and want the most up-to-date version of your repository to work with, you “pull” the changes down from GitHub with this command.
+
+Referenced tutorials and details:
+http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/
+https://guides.github.com/activities/hello-world/
+http://rogerdudler.github.io/git-guide/
