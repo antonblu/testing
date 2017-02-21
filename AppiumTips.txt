@@ -1,0 +1,6 @@
+mobile testing can be directly through the android device or through an android emulator
+To setup android emulator you need to download android studio which will already contain the needed package/files.
+to install the app to be tested in the android emulator, you need the app's apk file and install from the command line
+to test the app on a real android device, you need to enable the device for USB debugging then connect the device via USB and grant permission on the device to allow
+your desktop to access the device.
+once real device is connected, you can use uiautomatorviewer to take screenshots of the device screen or get the app elements

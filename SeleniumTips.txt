@@ -1,0 +1,6 @@
+Selenium Tips:
+to test Firefox automatically, you just need Selenium IDE
+selenium IDE has firefox plugins to log errors or to create reports. It also has a feature to schedule the automated test at a certain time.
+to test the app on chrome or IE, you need to download Selenium webdriver, and selenium browser drivers as well as python selenium bindings(if you are using python)
+You use python to create the .py automation script in an editor like spyder.
+you then run python .py script from the command line, e.g. python c:\users\some username\.spyder-py3\pytest1.py
