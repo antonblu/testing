@@ -1,3 +1,3 @@
-# testing
+# QA Testing
 QA testing repository
-Automated testing nowadays is synonymous with Selenium.
+This is all about testing
