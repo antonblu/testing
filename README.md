@@ -1,3 +1,3 @@
 # testing
 QA testing repository
-Automated testing nowadays is synonymous with Selenium.
+This is the testing branch
