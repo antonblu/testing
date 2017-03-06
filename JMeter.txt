@@ -1,0 +1,15 @@
+Installation steps for JMeter:    
+1.) Install the latest 64-bit Java(JRE or JDK) which is needed by JMeter.
+2.) Go to Apache JMeter and find the Binary to download to your computer
+3.) Once downloaded, move this file to your preferred location, extract it and go to the folder
+and then the bin directory.
+4.) If you have windows, go to the command line, and Launch JMeter in GUI mode by switching to
+the “bin” directory and typing the following:
+jmeter.bat
+You should now see an empty test plan in which you can start configuring your load test.
+5. You can also launch JMeter in command-line mode(non-GUI mode), e.g. jmeter -n -t yourownscript.jmx
+
+Troubleshooting tip:
+In the 'Text' window of the 'View results Tree', click to highlight the page with red fail status,
+then on the right side window,you will see 3 tabs, each with information to show the cause. 
+Look specially at the 'Response Data' tab.
