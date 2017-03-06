@@ -1,4 +1,6 @@
-Jenkins is an automation server that is most useful for running a bunch of tests, e.g. sequentially running test scripts one after the other.
+Jenkins is an automation server that is most useful for running a bunch of tests, e.g. sequentially running test
+scripts one after the other.
 Jenkins can be setup to run the tests at regular time intervals. 
-Using Jenkins plugins, test results can be displayed and stored(archived) so we have a running history of the test results.
+Using Jenkins plugins, test results can be displayed and stored(archived) so we have a running history of the test
+results.
 Thus, Jenkins saves time for the tester.
