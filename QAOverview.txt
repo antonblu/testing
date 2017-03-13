@@ -2,4 +2,5 @@ Selenium - used for testing web apps on your desktop. can also be used to test w
 Appium - used for testing web apps on your mobile device or emulated mobile device.
 Python -a language used to create test scripts for automated runs.
 Anaconda distribution - download this to get almost all you need to work with Python.
-Spyder- one of the apps you can use to write python .py test scripts, and run these scripts.
+Spyder- one of the editors you can use to write python .py test scripts, and run these scripts.
+If you would rather shy away from Python's grip, you can also try Mocha with Java-script.
