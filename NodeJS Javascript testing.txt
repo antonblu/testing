@@ -2,7 +2,8 @@ install selenium bindings for javascript
 install Node.js. Go to https://nodejs.org for download. Install both the node.js.runtime and the npm package manager.
 install a javascript editor, e.g. Visual Studio Code
 install selenium webdriver in the directory where your test scripts are located, e.g. npm install selenium-webdriver
-install javascript test framework, e.g. Mocha, that defines the test structures and provides assertions or checks in the test scripts
+install javascript test framework, e.g. Mocha, that defines the test structures and provides assertions or checks in the
+test scripts
 install Mocha from command line: npm install -g mocha
 This installs globally , that is, any Node.js project can use this module
 Javascript Test script structure:
@@ -10,6 +11,8 @@ test.describe - Description of a collection of related test cases
 test.it - Individual test case
 Use assert module of Node.js to perform checks, e.g. assert.equal(...)
 For more information on assert module go to: https://nodejs.org/api/assert.html
-Mocha provides the hooks before(), after(), beforeEach(), and afterEach() 
-which can be used to set up preconditions and clean up after test scripts, i.e. they are run before or after every test.
-You now run the test script with mocha framework with mocha command at command line, make sure to change directory to location where test scripts are stored. e.g. mocha webpagetestXYZ.js
+Mocha provides the hooks before(), after(), beforeEach(), and afterEach() which can be used to set up preconditions 
+and clean up after test scripts, i.e. they are run before or after every
+test.
+You now run the test script with mocha framework with mocha command at command line, make sure to change directory 
+to location where test scripts are stored. e.g. mocha webpagetestXYZ.js
