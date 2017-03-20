@@ -1,6 +1,6 @@
 Mobile testing can involve one of the following: Real Android/IOS device, Android emulator or Mobile website.
 To setup android emulator you need to download Android studio which contains tools such as AVD Manager to
-create the emulator.
+create the emulator or you can also use Visual Studio for this purpose.
 To install the app to be tested in the android emulator, you need the app's apk file that you will install
 from the command line
 To test the app on a real android device, you need to enable the device for USB debugging then connect the
