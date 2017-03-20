@@ -1,0 +1,7 @@
+To test your website in CSharp, download Visual Studio
+Next, create a Project/Solution then add the Selenium webdriver and support
+Now , you can create your test cases under the project as a CSharp class.
+You troubleshoot your test cases in various ways, by observing the test progress
+in Test Explorer, the Output Window and in the code window itself. The common thread 
+in all this troubleshooting is pinning down the offending line in the test script.
+Finally, run your test cases one at a time or all at once.
