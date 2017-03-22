@@ -12,5 +12,5 @@ IE lets you test using device emulation(it not perfect though). In IE, just clic
 select Windows phone to emulate windows phone screen while in Chrome click the 'Toggle Device toolbar' icon,
 click 'Responsive' in the middle menu and you can select a mobile device.In firefox, go to Tools - Web
 Developer - Responsive Design Mode.
-Appium testing can be done client side on your local machine, can also be done on the server side or both
-can be done on the cloud using mobile cloud testing services like bitbar.
+Appium testing can be done client side on your local machine or on the cloud using mobile cloud testing services
+like Saucelabs if you plan on testing on many devices.
