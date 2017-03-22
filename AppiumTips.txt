@@ -7,10 +7,11 @@ To test the app on a real android device, you need to enable the device for USB 
 device via USB and grant permission on the device that will allow your desktop to access the device.
 Once the real android device is connected, you can use uiautomatorviewer to take screenshots of the device
 screen or get the app elements.
-Before going down the labor-intensive Appium route with mobile testing, note that pressing F12 in chrome or
+Before going down the 'complicated' Appium route with mobile testing, note that pressing F12 in chrome or
 IE lets you test using device emulation(it not perfect though). In IE, just click the Emulation tab then 
 select Windows phone to emulate windows phone screen while in Chrome click the 'Toggle Device toolbar' icon,
 click 'Responsive' in the middle menu and you can select a mobile device.In firefox, go to Tools - Web
-Developer - Responsive Design Mode.
+Developer - Responsive Design Mode. Then there is the most obvious way of mobile testing using an actual mobile
+device such as a smartphone.
 Appium testing can be done client side on your local machine or on the cloud using mobile cloud testing services
 like Saucelabs if you plan on testing on many devices.
